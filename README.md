@@ -1,6 +1,6 @@
 # 🏦 ETL Pipeline — Indicadores Macroeconômicos (BCB)
 
-Esse Pipeline de dados extrai indicadores macroeconômicos da **API pública do Banco Central do Brasil**, transforma e carrega em um banco SQLite local, com suporte a agendamento automático.
+Esse pipeline de dados extrai indicadores macroeconômicos da **API pública do Banco Central do Brasil**, transforma e carrega em um banco SQLite local, com suporte a agendamento automático.
 
 ---
 
