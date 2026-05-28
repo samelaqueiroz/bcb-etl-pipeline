@@ -1,6 +1,6 @@
 # 🏦 ETL Pipeline — Indicadores Macroeconômicos (BCB)
 
-Pipeline de dados que extrai indicadores macroeconômicos da **API pública do Banco Central do Brasil**, transforma e carrega em um banco SQLite local, com suporte a agendamento automático.
+Esse Pipeline de dados extrai indicadores macroeconômicos da **API pública do Banco Central do Brasil**, transforma e carrega em um banco SQLite local, com suporte a agendamento automático.
 
 ---
 
@@ -39,7 +39,7 @@ API BCB (JSON)
 
 ---
 
-## 🚀 Como executar
+## 🚀 Execução
 
 ### 1. Clone o repositório
 
@@ -70,11 +70,11 @@ python scheduler.py
 python analise.py
 ```
 
-Os gráficos são salvos em `data/graficos/`.
+Os gráficos serão salvos em `data/graficos/`.
 
 ---
 
-## 📁 Estrutura do projeto
+## 📁 Estrutura
 
 ```
 bcb-etl-pipeline/
@@ -105,13 +105,6 @@ bcb-etl-pipeline/
 
 ---
 
-## 💡 Possíveis extensões
-
-- [ ] Substituir SQLite por PostgreSQL
-- [ ] Containerizar com Docker
-- [ ] Adicionar alertas por e-mail quando Selic ou câmbio ultrapassar limiar
-- [ ] Publicar dashboard interativo com Streamlit
-- [ ] Orquestrar com Apache Airflow
 
 ---
 
