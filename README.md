@@ -39,7 +39,7 @@ API BCB (JSON)
 
 ---
 
-## 🚀 Execução
+## Execução
 
 ### 1. Clone o repositório
 
