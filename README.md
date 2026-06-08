@@ -4,7 +4,7 @@ Esse pipeline de dados extrai indicadores macroeconômicos da **API pública do 
 
 ---
 
-## 📊 Dados coletados
+## Dados coletados
 
 | Série | Descrição |
 |---|---|
@@ -19,7 +19,7 @@ Fonte: [SGS — Banco Central do Brasil](https://www.bcb.gov.br/estatisticas/tab
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 API BCB (JSON)
@@ -74,7 +74,7 @@ Os gráficos serão salvos em `data/graficos/`.
 
 ---
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 bcb-etl-pipeline/
@@ -94,7 +94,7 @@ bcb-etl-pipeline/
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 - **Python 3.10+**
 - **Pandas** — transformação de dados
